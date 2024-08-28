@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+  html{
+    font-family: 'Nunito', sans-serif;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#dimg{
+  overflow: hidden;
+}
+
+#img{
+
+    overflow: hidden;
+    object-fit: cover;
+    transition: all 0.6s;
+
+}
+#img:hover{
+
+    transform: scale(1.1);
+    transition: all 0.6s;
+}
+#div{
+
+    transform: scale(1);
+    transition: all 0.5s;
+}
+#div:hover{
+
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+#btn{
+
+  transition: all 0.3s;
+}
+#btn:hover{
+
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transition: all 0.3s;
+}
+
+
+/* .image{
+  display: flex;
+  justify-content: center;
+   height: 300px;
+  width: 300px;
+  border: 5px solid yellow; 
+   border-radius: 100%; 
+  animation-name: superman;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
+  
+} */
+/* 
+@keyframes superman {
+  0%{
+      border-color: blue;
+      transform: translate(0,0px);
+      box-shadow: 10px 10px 100px 50px blue;
+  }
+  25%{
+      border-color: rgb(239,244,11);
+      box-shadow: 10px 10px 100px 50px rgb(239,244,11);
+  }
+  50%{
+      border-color: rgb(12,12,199);
+      transform: translate(0,10px);
+      box-shadow: 10px 10px 100px 50px rgb(12,12,199);
+  }
+  75%{
+      border-color: rgb(130,217,160);
+      box-shadow: 10px 10px 100px 50px rgb(130,217,160);
+  }
+  100%{
+      border-color: rgv(50,55,205);
+      transform: translate(0,-0px);
+      box-shadow: 10px 10px 100px 50px rgv(50,55,205);
+  }  
+}
+  */
