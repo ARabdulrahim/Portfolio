@@ -1,7 +1,10 @@
 import React from 'react'
 import img1 from "../assets/weather-app.png";
-import img2 from "../assets/images (1).jpeg";
+import img2 from "../assets/images (1).jpg";
 import img3 from "../assets/simon-says.png";
+import flogo from "../assets/flogo.png";
+import vlogo from "../assets/vlogo.jpg"
+import alogo from "../assets/alogo.webp"
 
 const Portfolio = () => {
 
@@ -9,24 +12,24 @@ const Portfolio = () => {
 
         {
             id:1,
-            src:img1,
-            href:"https://abdulrahimweatherapp.vercel.app/",
-            name:'Weather App',
-            href1:"https://github.com/ARabdulrahim/abdulrahim_weatherapp"
+            src:vlogo,
+            href:"https://abdulrahimzoom.onrender.com/",
+            name:'videoMeet',
+            href1:"https://github.com/ARabdulrahim/zoommeetingFrontend"
         },
         {
             id:2,
-            src:img2,
-            href:"https://abdul-rahim-password-generator.vercel.app/",
-            name:"Password Generator",
-            href1:"https://github.com/ARabdulrahim/AbdulRahimPasswordGenerator"
+            src:alogo,
+            href:"https://abdulrahimwanderlust.netlify.app/",
+            name:"wanderLust",
+            href1:"https://github.com/ARabdulrahim/airbnbFrontend"
         },
         {
             id:3,
-            src:img3,
-            href:"https://abdulrahim-simon-says-game.vercel.app/",
-            name:"Simon-Says Game",
-            href1:"https://github.com/ARabdulrahim/abdulrahim_simon_says_game"
+            src:flogo,
+            href:"https://abdulrahimfurnitureshop.onrender.com/",
+            name:"Online Furniture Shop",
+            href1:"https://github.com/ARabdulrahim/furnitureFrontend"
         },
         {
             id:4,
