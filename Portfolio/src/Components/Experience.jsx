@@ -5,6 +5,8 @@ import img3 from "../assets/javascript.png";
 import img4 from "../assets/react.png";
 import img5 from "../assets/tailwind.png";
 import img6 from "../assets/node.png";
+import img8 from "../assets/mongoDB.png";
+import img9 from "../assets/mySQL.png";
 
 const Experience = () => {
 
@@ -43,7 +45,25 @@ const Experience = () => {
             {
                 id:6,
                 src:img6,
+                title:"Node",
+                style:"shadow-green-500 shadow-md"
+            },
+            {
+                id:7,
+                src:img6,
                 title:"Express",
+                style:"shadow-green-500 shadow-md"
+            },
+            {
+                id:8,
+                src:img8,
+                title:"mongoDB",
+                style:"shadow-green-500 shadow-md"
+            },
+            {
+                id:9,
+                src:img9,
+                title:"mySQL",
                 style:"shadow-green-500 shadow-md"
             },
         ]
